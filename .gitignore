@@ -1,0 +1,55 @@
+# ===== Keil MDK 编译产物（中间目标文件、链接脚本、日志、镜像） =====
+*.o
+*.d
+*.crf
+*.elf
+*.axf
+*.map
+*.lst
+*.lnp
+*.sct
+*.dep
+*.hex
+*.bin
+*.iex
+*.htm
+*.build_log.htm
+
+# ===== Keil 每次编译自动重新生成的输出目录 =====
+Objects/
+Listings/
+DebugConfig/
+
+# ===== Keil 个人本机配置（窗口布局、断点、调试器路径，因人而异，不应入库） =====
+*.uvguix.*
+*.uvoptx
+*.uvopt.bak
+*.uvproj.bak
+*.bak
+*.scvd
+*.jlink
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== 硬件 EDA（Altium 等）临时文件 =====
+History/
+__Previews/
+Project Logs*/
+Project Outputs*/
+*.Bkp
+*.REP
+*.ERR
+*.OutJob
+
+# ===== 前端工具链（若日后加入网页大屏源码） =====
+node_modules/
+.npm/
+dist/
+
+# ===== 操作系统缓存文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
